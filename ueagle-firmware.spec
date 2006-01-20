@@ -1,5 +1,5 @@
-Summary:	The non-free firmware for eagle usb adsl modem
-Summary(pl):	Firmware dla modemów SAGEM f@ast usb
+Summary:	The non-free firmware for eagle (SAGEM f@st) USB ADSL modem
+Summary(pl):	Firmware dla modemów ADSL eagle (SAGEM f@st) USB
 Name:		ueagle-firmware
 Version:	1.0
 Release:	1
@@ -15,20 +15,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		hotplugfwdir	/lib/firmware
 
 %description
-The non-free firmware for eagle usb adsl modem.
+The non-free firmware for eagle (SAGEM f@st) USB ADSL modem.
 
 %description -l pl
-Firmware dla modemów SAGEM f@ast usb.
+Firmware dla modemów ADSL eagle (SAGEM f@ast) USB.
 
 %prep
 %setup -q -n ueagle-data-%{version}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{hotplugfwdir}/ueagle-atm
+install -d $RPM_BUILD_ROOT%{hotplugfwdir}/ueagle-atm
 
-install *.bin $RPM_BUILD_ROOT/%{hotplugfwdir}/ueagle-atm
-install *.fw $RPM_BUILD_ROOT/%{hotplugfwdir}/ueagle-atm
+install *.bin $RPM_BUILD_ROOT%{hotplugfwdir}/ueagle-atm
+install *.fw $RPM_BUILD_ROOT%{hotplugfwdir}/ueagle-atm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
