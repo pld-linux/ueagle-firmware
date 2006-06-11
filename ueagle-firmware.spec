@@ -1,3 +1,7 @@
+#
+# TODO:
+# - switch to build firmware from source
+#
 Summary:	The non-free firmware for eagle (SAGEM f@st) USB ADSL modem
 Summary(pl):	Firmware dla modemów ADSL eagle (SAGEM f@st) USB
 Name:		ueagle-firmware
@@ -5,6 +9,8 @@ Version:	1.1
 Release:	1
 License:	restricted, non-distributable
 Group:		Libraries
+# Maybe it's better to use source and build it?
+#Source0:	http://castet.matthieu.free.fr/eagle/non-free/ueagle-data-src-%{version}.tar.gz
 Source0:	http://castet.matthieu.free.fr/eagle/non-free/ueagle-data-%{version}.tar.gz
 # NoSource0-md5:	7df45e6c0b68ba3048eb18e730ebedee
 NoSource:	0
