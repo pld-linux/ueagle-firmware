@@ -1,14 +1,14 @@
 Summary:	The non-free firmware for eagle (SAGEM f@st) USB ADSL modem
 Summary(pl):	Firmware dla modemów ADSL eagle (SAGEM f@st) USB
 Name:		ueagle-firmware
-Version:	1.0
+Version:	1.1
 Release:	1
 License:	restricted, non-distributable
 Group:		Libraries
-Source0:	http://castet.matthieu.free.fr/eagle/release/ueagle-data-%{version}.tar.gz
-# NoSource0-md5:	e86b86462ce022e1399acfb37d2daf3f
+Source0:	http://castet.matthieu.free.fr/eagle/non-free/ueagle-data-%{version}.tar.gz
+# NoSource0-md5:	7df45e6c0b68ba3048eb18e730ebedee
 NoSource:	0
-URL:		http://castet.matthieu.free.fr/eagle/release/
+URL:		http://castet.matthieu.free.fr/eagle/non-free/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
