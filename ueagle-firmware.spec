@@ -3,7 +3,7 @@
 # - switch to build firmware from source
 #
 Summary:	The non-free firmware for eagle (SAGEM f@st) USB ADSL modem
-Summary(pl.UTF-8):   Firmware dla modemów ADSL eagle (SAGEM f@st) USB
+Summary(pl.UTF-8):	Firmware dla modemów ADSL eagle (SAGEM f@st) USB
 Name:		ueagle-firmware
 Version:	1.1
 Release:	1
